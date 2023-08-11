@@ -1,0 +1,8 @@
+name: 'JS Cohesion Attach'
+description: 'Provides custom element to Cohesion Site Studio attach JS.'
+package: Custom
+type: module
+version: 1.0
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - cohesion

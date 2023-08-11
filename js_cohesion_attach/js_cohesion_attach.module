@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Attach JS to Cohesion Site Studio elements.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function js_cohesion_attach_theme($existing, $type, $theme, $path) {
+  return [
+    'attach_js_element_template' => [
+      'template' => 'attach-js-element-template',
+      'variables' => [
+        'elementSettings' => NULL,
+        'elementMarkup' => NULL,
+        'elementContext' => NULL,
+        'elementClass' => NULL,
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

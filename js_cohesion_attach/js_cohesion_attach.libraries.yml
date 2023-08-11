@@ -1,0 +1,6 @@
+# example:
+#   js:
+#     js/dist/example.js: {}
+#   dependencies:
+#     - core/drupal
+#     - core/jquery
